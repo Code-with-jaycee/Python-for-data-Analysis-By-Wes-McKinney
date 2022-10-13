@@ -102,3 +102,8 @@ year of release)
 - Some MovieIDs do not correspond to a movie due to accidental duplicate
 entries and/or test entries
 - Movies are mostly entered by hand, so errors and inconsistencies may exist
+
+
+# Updated functions
+.rows was being replaced by .index
+ix() function became deprecated and was replaced by loc() or iloc()
